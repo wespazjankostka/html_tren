@@ -12,10 +12,6 @@ body
 {
 	background-color:white;
 	margin:0;
-	color:black;
-	font-size:20px;
-	line-height:30px;
-	font-family:Helvetica;
 }
 
 	
@@ -25,22 +21,37 @@ body
 	min-height:800px;
 	margin-left:auto;
 	margin-right:auto;
-	border:2px solid black;
+	/*border:2px solid black;*/
 
 }
 #leftc
 {
-	
+
 	width:1020px;
 	height:200px;
 	margin:10px;
 	padding:20px;
 	float:left;
+	font-size:20px;
+	line-heigth:30px;
+	text-align:justify;
+	hyphens:auto;
+	font-kerning: none;
+	font-family:Helvetica;
+
 	
+}
+
+h1
+{
+	font-size:55px;
+	margin-left:60px;
+	margin-bottom:30px;
+	margin-top:0;
 }
 #rightc
 {
-
+	
 	width:300px;
 	height:200px;
 	margin:10px;
@@ -49,6 +60,10 @@ body
 		
 }
 
+#rightc img
+{
+	margin-top:90px;
+}
 #logo
 {
 	height:90px;
@@ -61,7 +76,8 @@ body
 	margin-bottom:80px;
 	font-size:80px;
 	letter-spacing:2px;
-	font-family: 'Alegreya Sans SC', sans-serif;
+
+	font-family: 'Libre Baskerville', serif;
 	font-weight:700;
 	float:left;
 }
@@ -100,6 +116,7 @@ input[type=password]
 	border-radius:5px;
 	outline:none;
 	font-size:15px;
+	font-family: 'Libre Baskerville', serif;
 }
 input[type=submit]
 {
@@ -116,7 +133,7 @@ input[type=submit]
 	padding:10px;
 	text-align:center;
 	letter-spacing:2px;
-	
+	font-family: 'Libre Baskerville', serif;
 }
 input[type=text]:focus,
 input[type=password]:focus
@@ -136,8 +153,9 @@ input[type=submit]:hover
 	
 #topnav
 {
+	font-family: 'Libre Baskerville', serif;	
 	margin-top:40px;
-	margin-bottom:150px;
+	margin-bottom:60px;
 	width:100%;
 	height:46px;
 	border-top:2px solid black;
@@ -145,11 +163,12 @@ input[type=submit]:hover
 	padding:5px;
 	text-align:center;
 	
+	
 }
 ol
 {
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-size:40px;
+
+	font-size:38px;
 	list-style-type:none;
 	text-transform:uppercase;
 	text-align:center;
@@ -185,13 +204,13 @@ ol> li:hover > ul > li
 }
 ol > li > ul
 {
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-size:30px;
+	font-size:25px;
 	list-style-type:none;
 	text-transform:uppercase;
 	margin:0;
 	padding:0;
 	padding-bottom:10px;
+	line-height:1.5;
 	
 
 }
@@ -229,15 +248,15 @@ ol > li > ul > li:hover
 #footer
 {
 	width:100%;
-	height:30px;
+	height:25px;
 	margin-top:20px;
 	margin-bottom:20px;
 	padding:10px;
 	border-top:2px solid black;
 	border-bottom:2px solid black;
 	text-align:center;
-	font-size:22px;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:20px;
+	font-family: 'Libre Baskerville', serif;
 
 }
 

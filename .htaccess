@@ -5,8 +5,12 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule restauracja-tabasco index.html
-RewriteRule o-nas onas.html
-RewriteRule nasze-menu naszemenu.html
-RewriteRule galeria-restauracji galeria.html
-RewriteRule skontaktuj-sie-z-nami kontakt.html
+RewriteRule blogi index.html
+RewriteRule uzyskaj-pomoc pomoc.html
+RewriteRule skontaktuj-się-z-nami kontakt.html
+RewriteRule autorzy-wespazjan-kostka kostka.html
+RewriteRule autorzy-scooby-doo scooby.html
+RewriteRule autorzy-adrian-hadrian hadrian.html
+RewriteRule tematyczne-kino kino.html
+RewriteRule tematyczne-muzyka muzyka.html
+RewriteRule tematyczne-programowanie programowanie.html
