@@ -1,0 +1,249 @@
+	Font license info
+	## Font Awesome
+
+   Copyright (C) 2016 by Dave Gandy
+
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
+ 
+
+body
+{
+	background-color:white;
+	margin:0;
+	color:black;
+	font-size:20px;
+	line-height:30px;
+	font-family:Helvetica;
+}
+
+	
+#container
+{
+	width:1400px;
+	min-height:800px;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid black;
+
+}
+#leftc
+{
+	background-color:green;
+	width:1020px;
+	height:200px;
+	margin:10px;
+	padding:20px;
+	float:left;
+	
+}
+#rightc
+{
+	background-color:green;
+	width:300px;
+	height:200px;
+	margin:10px;
+	float:left;
+	text-align:center;
+		
+}
+
+#logo
+{
+	height:90px;
+	padding:10px;
+	padding-left:50px;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:80px;
+	font-size:80px;
+	letter-spacing:2px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight:700;
+	float:left;
+}
+
+#log
+{
+	float:left;
+	width:280px;
+	height:140px;
+	margin-top:40px;
+	margin-left:5px;
+
+
+	
+}
+input[type=text],
+input[type=password]
+
+{
+	background-color:#efefef;
+	width:250px;
+	border:1px solid black;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:5px;
+	padding:5px;
+	border-radius:5px;
+	outline:none;
+	font-size:15px;
+}
+input[type=submit]
+{
+	width:260px;
+	border-radius:5px;
+	border:1px solid black;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	background-color:black;
+	color:white;
+	outline:none;
+	font-size:20px;
+	padding:10px;
+	text-align:center;
+	letter-spacing:2px;
+	
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.91);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.91);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.91);
+	border:2px solid #5cda5;
+	background-color:#e9f3e9;
+}
+input[type=submit]:hover
+{
+	cursor:pointer;
+	background-color:white;
+	color:black;
+}
+	
+#topnav
+{
+	margin-top:40px;
+	margin-bottom:100px;
+	width:100%;
+	height:46px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding:5px;
+	text-align:center;
+	
+}
+ol
+{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:40px;
+	list-style-type:none;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+	padding:0;
+	display:inline-block;
+
+
+	
+}
+ol> li
+{
+	width:350px;
+	padding-left:10px;
+	padding-right:10px;
+	letter-spacing:1px;
+	float:left;
+	
+
+}
+
+ol > li:hover
+{
+	color:white;
+	background-color:black;
+	cursor:pointer;
+	border-radius:5px;
+	
+}
+ol> li:hover > ul > li
+{
+	display:block;
+}
+ol > li > ul
+{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:30px;
+	list-style-type:none;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	padding-bottom:10px;
+	
+
+}
+ol > li > ul > li
+{
+	border-top:2px solid white;
+	z-index:100;
+	display:none;
+	position:relative;
+	
+
+}
+ol > li > ul > li:hover
+{
+	border-top:2px solid white;
+	background-color:white;	
+	color:black;
+	
+}
+
+#social
+{
+	width:100%;
+	height:90px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	text-align:center;
+	
+	
+}
+#footer
+{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	text-align:center;
+	font-size:22px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.tile
+{
+	width:100px;
+	display:inline-block;
+	padding:20px;
+	margin-right:40px;
+
+}
+.tile:hover
+{
+	background-color:black;
+	color:white;
+	cursor:pointer;
+	border-radius:5px;
+}
